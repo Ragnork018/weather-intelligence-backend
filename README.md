@@ -380,10 +380,10 @@ Built for PM Accelerator AI Engineer Internship Assessment.
 
 ## 👤 Author
 
-**Tejavath Praveen Sai**
-- GitHub: [@SAMITH-07](https://github.com/SAMITH-07)
-- Email: [your-email]
-- LinkedIn: [your-linkedin]
+**Ragnork018**
+- GitHub: [@Ragnork018](https://github.com/Ragnork018)
+- LinkedIn: [your-linkedin-url]
+- Portfolio: [your-portfolio-url]
 
 ## 🤝 Support
 

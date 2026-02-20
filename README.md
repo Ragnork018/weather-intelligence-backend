@@ -15,7 +15,7 @@ This is a backend-first, production-ready FastAPI application that demonstrates:
 - **Robust error handling** and input validation
 - **OpenAPI documentation** built-in
 
-## 🎯 Key Features
+##  Key Features
 
 ✅ **Weather Data Retrieval**
 - Accept location input (city, coordinates, landmarks, ZIP codes)
@@ -43,7 +43,7 @@ This is a backend-first, production-ready FastAPI application that demonstrates:
 - Input validation with Pydantic
 - Scalable architecture ready for AI features
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 API Layer (routers/)
@@ -92,7 +92,7 @@ weather-intelligence-backend/
 └── weather.db                 # SQLite database (auto-generated)
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -139,7 +139,7 @@ uvicorn app.main:app --reload
 API will be available at: **http://localhost:8000**
 Docs at: **http://localhost:8000/docs**
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Weather Requests
 
@@ -240,7 +240,7 @@ Response (200 OK):
 ]
 ```
 
-## 🔧 Database
+## Database
 
 ### Models
 
@@ -258,7 +258,7 @@ Response (200 OK):
 - `created_at` (DateTime): Record creation timestamp
 - `updated_at` (DateTime): Record update timestamp
 
-## ❌ Error Handling
+##  Error Handling
 
 The API returns meaningful HTTP status codes and messages:
 
@@ -274,7 +274,7 @@ The API returns meaningful HTTP status codes and messages:
 }
 ```
 
-## 🔑 Configuration
+##  Configuration
 
 ### Environment Variables (`.env`)
 
@@ -293,7 +293,7 @@ APP_NAME=Weather Intelligence API
 APP_VERSION=0.1.0
 ```
 
-## 🧪 Testing
+##  Testing
 
 Test with curl:
 
@@ -319,7 +319,7 @@ curl "http://localhost:8000/api/exports/weather-requests.json" \
   -o weather_data.json
 ```
 
-## 🎓 How to Scale for AI/ML
+##  How to Scale for AI/ML
 
 This architecture is designed to support AI features:
 
@@ -339,7 +339,7 @@ This architecture is designed to support AI features:
    - Track seasonal weather patterns
    - Build user preference models
 
-## 📝 Assessment Requirements Met
+##  Assessment Requirements Met
 
 ✅ **Backend Engineer (Tech Assessment #2)**
 - [x] Weather data retrieval from external API
@@ -365,7 +365,7 @@ This architecture is designed to support AI features:
 - [ ] CI/CD pipeline
 - [ ] Additional API integrations (Maps, Weather Alerts)
 
-## 📚 Tech Stack
+##  Tech Stack
 
 - **Framework**: FastAPI
 - **ORM**: SQLAlchemy
@@ -374,7 +374,7 @@ This architecture is designed to support AI features:
 - **Validation**: Pydantic
 - **Server**: Uvicorn
 
-## 📄 License
+##  License
 
 Built for PM Accelerator AI Engineer Internship Assessment.
 
